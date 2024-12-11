@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="index, follow">
+    <meta name="keywords" content="SEO, web development, HTML, meta tags">
+    <meta http-equiv="refresh" content="">
+    <meta property="og:title" content="Page Title">
+    <meta property="og:description" content="A description of the page for social media">
+    <meta property="og:image" content="https://example.com/image.jpg">
+    <meta property="og:url" content="https://www.example.com/page">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../style.css">
+    <title>Employee</title>
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <h2>HRM LOGO</h2>
+            <ul>
+                <li style="background-color: #4d9ea2;color: #fff;"><a style="color: #fff;" href="../index.html"><img src="../assets/Component4.png"> Dashboard</a></li>
+                <li><a href="#"><img src="../assets/Component6.png"> Attendance</a></li>
+                <li><a href="#"><img src="../assets/Component5.png"> Request</a></li>
+                <li><a href="employee.html"><img src="../assets/Component2.png"> Employees</a></li>
+                <li><a href="#"><img src="../assets/Component1.png"> Notice</a></li>
+                <li><a href="#"><img src="../assets/Chart.png"> Feeds</a></li>
+                <li><a href="#"><img src="../assets/Component 3.png">  Organization</a></li>
+            </ul>
+        </div>
+
+        <div class="main-content">
+            <div class="navbar">
+                <div class="search-bar">
+                    <input type="text" placeholder="Search anything anywhere...">
+                    <i class="fas fa-search"></i>
+                </div>
+                <div class="navbar-right">
+                    <button style="background-color: #FFFFFF;color:#a8a5a5;" class="localization-btn">ENG</button>
+                    <img style="margin-left: 20px;" src="../assets/Group 164104.png">
+                    <button style="background-color: #FFFFFF;color:#a8a5a5;" class="logout-btn">Logout</button>
+                </div>
+            </div>
+
+            <h3>Employee</h3>
+
+            <!-- Sections -->
+            <div class="section">
+
+                <div class="breadcreams">
+
+                    <li class="fas fa-home"></li> > Employee
+
+
+                    <!-- sarch and add  -->
+
+                    <div class="employee-search">
+                        <div class="search-container">
+                            <input type="text" placeholder="Search">
+                            <span class="search-icon">&#128269;</span>
+                        </div>
+                        <a href="addemployee.html" class="add-employee">+ Add Emp</a>
+                    </div>
+
+                    <!-- end search  -->
+
+
+
+                </div>
+
+                <!-- end breadcreams  -->
+
+
+
+
+
+
+
+
+
+
+
+
+            </div>
+
+            <!-- end section  -->
+
+            <div class="table-container">
+                <div class="header-row">
+                    <h2>Total (23)</h2>
+                    <div class="filters">
+                        <h5 class="tab-filter">Department</h5>
+
+                        <select class="table-select">
+
+                            <!-- <option>Department</option> -->
+                            <option>All</option>
+                        </select>
+                        <h5 class="tab-filter">Designation</h5>
+                        <select class="table-select">
+                            <!-- <option>Designation</option> -->
+                            <option>All</option>
+                        </select>
+                        <h5 class="tab-filter">Employment</h5>
+
+                        <select class="table-select">
+                            <!-- <option>Employment</option> -->
+                            <option>All</option>
+                        </select>
+                    </div>
+                </div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>S.No <i class="fas fa-sort-up" style="margin-right: -12px;"></i>
+                                <i class="fas fa-sort-down"></i>
+                            </th>
+                            <th>Id <i class="fas fa-sort-up" style="margin-right: -12px;"></i>
+                                <i class="fas fa-sort-down"></i>
+                            </th>
+                            <th>Full Name <i class="fas fa-sort-up" style="margin-right: -12px;"></i>
+                                <i class="fas fa-sort-down"></i>
+                            </th>
+                            <th>Phone Number <i class="fas fa-sort-up" style="margin-right: -12px;"></i>
+                                <i class="fas fa-sort-down"></i>
+                            </th>
+                            <th>Designation <i class="fas fa-sort-up" style="margin-right: -12px;"></i>
+                                <i class="fas fa-sort-down"></i>
+                            </th>
+                            <th>Department <i class="fas fa-sort-up" style="margin-right: -12px;"></i>
+                                <i class="fas fa-sort-down"></i>
+                            </th>
+                            <th>Employment <i class="fas fa-sort-up" style="margin-right: -12px;"></i>
+                                <i class="fas fa-sort-down"></i>
+                            </th>
+                            <th>Action <i class="fas fa-sort-up" style="margin-right: -12px;"></i>
+                                <i class="fas fa-sort-down"></i>
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td><a style="text-decoration: underline;" href="employeeview.html">EMP_01</a></td>
+                            <td>Ahmad Jahangir</td>
+                            <td>+201123736204</td>
+                            <td>Supervisor</td>
+                            <td>Data Science</td>
+                            <td>Permanent</td>
+                            <td>
+                                <a href="#" class="edit">
+                                    <li class="fas fa-edit"></li>
+                                </a>
+                                <a href="#" class="delete">
+                                    <li class="fas fa-trash"></li>
+                                </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td><a style="text-decoration: underline;" href="employeeview.html">EMP_02</a></td>
+                            <td>Emery Bator</td>
+                            <td>+201005521587</td>
+                            <td>Supervisor</td>
+                            <td>HR</td>
+                            <td>Permanent</td>
+                            <td>
+                                <a href="#" class="edit">
+                                    <li class="fas fa-edit"></li>
+                                </a>
+                                <a href="#" class="delete">
+                                    <li class="fas fa-trash"></li>
+                                </a>
+                            </td>
+                        </tr>
+                        <!-- Add more rows as needed -->
+
+                        <tr>
+
+                            <td colspan="5"></td>
+                            <td style="color: #b1aeae;">Currently Page</td>
+                            <td>
+                                <a href="#" class="edit"><i style="font-size: 12px;" class="fas fa-arrow-left"></i>
+                                    Prev</a>
+                                <a href="#" class="delete"></i>
+                                    Next<i style="font-size: 12px;" class="fas fa-arrow-right"></i>
+                                </a>
+                            </td>
+                        </tr>
+                        <!-- Add more rows as needed -->
+                    </tbody>
+
+
+
+
+
+                </table>
+
+
+
+            </div>
+
+
+
+
+
+
+
+
+            <!-- // -->
+        </div>
+    </div>
+</body>
+
+
+
+
+</html>

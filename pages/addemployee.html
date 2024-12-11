@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="index, follow">
+    <meta name="keywords" content="SEO, web development, HTML, meta tags">
+    <meta http-equiv="refresh" content="">
+    <meta property="og:title" content="Page Title">
+    <meta property="og:description" content="A description of the page for social media">
+    <meta property="og:image" content="https://example.com/image.jpg">
+    <meta property="og:url" content="https://www.example.com/page">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../style.css">
+    <title>Add New Employee</title>
+
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <h2>HRM LOGO</h2>
+            <ul>
+                <li style="background-color: #4d9ea2;color: #fff;"><a style="color: #fff;" href="../index.html"><img src="../assets/Component4.png"> Dashboard</a></li>
+                <li><a href="#"><img src="../assets/Component6.png"> Attendance</a></li>
+                <li><a href="#"><img src="../assets/Component5.png"> Request</a></li>
+                <li><a href="employee.html"><img src="../assets/Component2.png"> Employees</a></li>
+                <li><a href="#"><img src="../assets/Component1.png"> Notice</a></li>
+                <li><a href="#"><img src="../assets/Chart.png"> Feeds</a></li>
+                <li><a href="#"><img src="../assets/Component 3.png">  Organization</a></li>
+            </ul>
+        </div>
+
+        <div class="main-content">
+            <div class="navbar">
+                <div class="search-bar">
+                    <input type="text" placeholder="Search anything anywhere...">
+                    <i class="fas fa-search"></i>
+                </div>
+                <div class="navbar-right">
+                    <button style="background-color: #FFFFFF;color:#a8a5a5;" class="localization-btn">ENG</button>
+                    <img style="margin-left: 20px;" src="../assets/Group 164104.png">
+                    <button style="background-color: #FFFFFF;color:#a8a5a5;" class="logout-btn">Logout</button>
+                </div>
+            </div>
+
+            <h3>Add New Employee</h3>
+
+            <!-- Sections -->
+            <div class="section">
+
+                <div class="breadcreams">
+
+                    <li class="fas fa-home"></li> Employee / Add New Employee
+
+
+
+
+
+
+                </div>
+
+                <!-- end breadcreams  -->
+
+
+
+
+
+
+
+
+
+
+
+
+            </div>
+
+            <!-- end section  -->
+
+            <div class="table-container">
+
+                <div class="header-row">
+                    <h2 style="color: #1A2524;">Personal Information</h2>
+                    <div class="filters">
+
+                        <h2 style="color: #1A2524;">This Employee is a Manager.</h2>
+                    </div>
+                    
+                </div>
+
+                <div class="toggle-container">
+                    <input type="checkbox" id="toggle-checkbox" class="toggle-checkbox">
+                    <label for="toggle-checkbox" class="toggle-label">
+                      <span class="toggle-inner"></span>
+                    </label>
+                  </div>
+
+                <!-- input field start -->
+<p style="color: #989898;font-size: 12px;margin-bottom: 10px;">Upload Employee Image</p>
+                <!-- <div class="upload-container"> -->
+                    <div class="upload-box">
+                      <label for="file-input">
+                        <div class="upload-text">Drag drop or Browse</div>
+                        <div class="upload-size">150*150 Recommended</div>
+                      </label>
+                      <input type="file" id="file-input" accept="image/*" style="display: none;">
+                    </div>
+                  <!-- </div> -->
+
+                <!-- input end  -->
+
+
+                <form>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="full-name">Full Name:</label>
+                            <input type="text" id="full-name" placeholder="Ali Ahmad">
+                        </div>
+                        <div class="form-group">
+                            <label for="employee-id">Employee ID:</label>
+                            <input type="text" id="employee-id" placeholder="EMP_1">
+                        </div>
+                        <div class="form-group">
+                            <label for="contact-number">Contact Number:</label>
+                            <input type="tel" id="contact-number" placeholder="+93284284923">
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" placeholder="abc@gmail.com">
+                        </div>
+                        <div class="form-group">
+                            <label for="dob">DOB:</label>
+                            <input type="date" id="dob">
+                        </div>
+                        <div class="form-group">
+                            <label for="iqama-number">Iqama Number:</label>
+                            <input type="text" id="iqama-number" placeholder="HJH34358">
+                            <!-- <i class="fa fa-calendar"></i> -->
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="iqama-expiry">Iqama Number Expiry Date:</label>
+                            <input type="date" id="iqama-expiry">
+                            <!-- <i class="fa fa-calendar"></i> -->
+                        </div>
+                        <div class="form-group">
+                            <label for="nationality">Nationality:</label>
+                            <select id="nationality">
+                                <option value="">Select</option>
+                                </select>
+                        </div>
+                    </div>
+
+<!-- // form 2 -->
+                    <div class="form-two">
+                        <h4>Job Information</h4>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="full-name">Designation:</label>
+                                <select id="nationality">
+                                    <option value="">Select</option>
+                                    </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="employee-id">Department:</label>
+                                <select id="nationality">
+                                    <option value="">Select</option>
+                                    </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="contact-number">Joining Date:</label>
+                                <input type="date" id="contact-number" placeholder="+93284284923">
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="email">Employment Type :</label>
+                                <select id="nationality">
+                                    <option value="">Select</option>
+                                    </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="dob">Employment Level :</label>
+                                <select id="nationality">
+                                    <option value="">Select</option>
+                                    </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="iqama-number">Shift:</label>
+                                <select id="nationality">
+                                    <option value="">Select</option>
+                                    </select>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="iqama-expiry">Time Off:</label>
+                                <select id="nationality">
+                                    <option value="">Select</option>
+                                    </select>
+                            </div>
+                            
+                        </div>
+                    </div>
+
+
+                    <div class="form-third">
+                        <h4>Salary</h4>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="full-name">Salary:</label>
+                                <input type="text" id="full-name" placeholder="5000 PKR">
+                            </div>
+                            <div class="form-group">
+                                <label for="employee-id">Accommodation Allowance:</label>
+                                <input type="text" id="employee-id" placeholder="5000 PKR">
+                            </div>
+                            <div class="form-group">
+                                <label for="contact-number">Travelling Allowance:</label>
+                                <input type="tel" id="contact-number" placeholder="i-e 5000 PKR">
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="email">Bonus:</label>
+                                <input type="email" id="email" placeholder="i-e 5000 PK">
+                            </div>
+
+                            <div class="dollar">
+
+                               <img src="../Vector.png"> Total Salary: <span style="color: #3B9EA2;font-size: 15px;">  200,000 PKR</span>
+
+                            </div>
+                            
+                            
+                           
+                        </div>
+                        
+                    </div>
+
+
+
+                      <div class="form-forth">
+                        <h4>Report</h4>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="full-name">Manager/Lead :</label>
+                                <select id="nationality">
+                                    <option value="">Select</option>
+                                    </select>
+                            </div>
+                           
+                        </div>
+                        
+                        
+                    </div>
+
+
+                    <div class="form-five">
+                        <h4>Policies</h4>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="full-name">Policy Categories :</label>
+                                <select id="nationality">
+                                    <option value="">Select</option>
+                                    
+                                    </select>
+                                    <div class="btn-policy">
+
+                                        <button class="btn-pass">Passport  <span class="policy-corss">X</span></button>
+                                        <button class="btn-pass">Iqama <span class="policy-corss">X</span></button>
+                    
+                                    </div>
+                            </div>
+                           
+                        </div>
+                        
+                        
+                    </div>
+
+
+                    <div class="form-six">
+                        <h4>Bank Account Details</h4>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="full-name">Bank Name :</label>
+                                <select id="nationality">
+                                    <option value="">Select</option>
+                                    </select>
+                            </div>
+
+
+                            <div style="margin-right: 350px;" class="form-group">
+                                <label for="full-name">Account Number :</label>
+                                <select id="nationality">
+                                    <option value="">Select</option>
+                                    </select>
+                            </div>
+                           
+                        </div>
+
+
+                       
+                        
+                    </div>
+
+
+                    <div class="form-six">
+                        <h4>Identification Information</h4>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="full-name">Passport ID :</label>
+                                <input type="number" id="email" placeholder="i-e 343535">
+                            </div>
+
+
+                            <div style="margin-right: 350px;" class="form-group">
+                                <label for="full-name">Passport Expiration Date :</label>
+                                <input type="date" id="email" placeholder="i-e 5000 PK">
+                            </div>
+                           
+                        </div>
+
+                       
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="full-name">Driving License Number :</label>
+                                <input type="text" id="email" placeholder="i-e 343535">
+                            </div>
+
+
+                            <div style="margin-right: 350px;" class="form-group">
+                                <label for="full-name">Driving License Expiry Date :</label>
+                                <input type="date" id="email" placeholder="i-e 5000 PK">
+                            </div>
+                           
+                        </div>
+
+
+                       
+                        
+                    </div>
+
+                    <div class="form-six">
+                        <h4>Password</h4>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="full-name">Password :</label>
+                                <input type="password" id="email" placeholder="">
+                            </div>
+
+
+                            <div style="margin-right: 350px;" class="form-group">
+                                <label for="full-name">Confirm Password :</label>
+                                <input type="password" id="email" placeholder="">
+                            </div>
+                           
+                        </div>
+
+
+                       
+                        
+                    </div>
+
+
+<div class="form-seven">
+
+                        <h4>Attachments</h4>
+
+  <!-- input field start -->
+<!-- <p style="color: #989898;font-size: 12px;margin-bottom: 10px;">Upload Employee Image</p> -->
+                <!-- <div class="upload-container"> -->
+                    <div class="attch-upload-box">
+                      <label for="file-input">
+                        <div class="attach-upload-text"><li class="fas fa-file"></li> Drag and drop or <a style="color: #3B9EA2;" href="">Browser</a></div>
+                        <!-- <div class="upload-size">150*150 Recommended</div> -->
+                      </label>
+                      <input type="file" id="file-input" accept="image/*" style="display: none;">
+                    </div>
+                  <!-- </div> -->
+
+                <!-- input end  -->
+
+                <div class="btn-atch">
+
+                    <button  class="btn-pass">Passport  <span class="corss">X</span></button>
+                    <button class="btn-pass">Iqama <span class="corss">X</span></button>
+
+                    
+                        <button style="margin-left: 500px;padding: 5px 25px;color: #3B9EA2;" class="sub-btn">Cancel</button>
+                        <button style="padding: 5px 25px;background-color: #3B9EA2;color: #F8FFFE;" class="sub-btn">Add Employee</button>
+
+
+                    
+                </div>
+
+                
+
+
+</div>
+                    <!-- form end  -->
+                </form>
+            </div>
+
+
+
+
+
+
+
+
+            <!-- // -->
+        </div>
+    </div>
+</body>
+
+
+
+
+</html>
