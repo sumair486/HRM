@@ -290,7 +290,7 @@ body {
   height: 100%;
   background-color: #3B9EA2;
   width: 0%;
-  /* Default to 0% */
+  
   transition: width 0.4s ease;
 }
 
@@ -309,13 +309,13 @@ body {
 
 .search-container {
   position: relative;
-  flex-grow: 1; /* Allow the search container to take available space */
-  max-width: 60%; /* Adjust width as needed */
+  flex-grow: 1; 
+  max-width: 60%; 
 }
 
 .search-container input {
   width: 100%;
-  padding: 10px 35px 10px 10px; /* Space for the icon */
+  padding: 10px 35px 10px 10px;
   border: 1px solid #ddd;
   border-radius: 5px;
   font-size: 14px;
@@ -431,7 +431,7 @@ table a {
 .upload-box {
   position: relative;
   width: 20%;
-  height: 200px; /* Adjust the height as needed */
+  height: 200px; 
   border: 2px dashed #009688;
   border-radius: 5px;
   cursor: pointer;
@@ -568,7 +568,7 @@ table a {
 .attch-upload-box {
   position: relative;
   width: 45%;
-  height: 130px; /* Adjust the height as needed */
+  height: 130px;
   border: 2px dashed #009688;
   border-radius: 5px;
   cursor: pointer;
@@ -624,7 +624,7 @@ table a {
 }
 
 .left-section {
-  width: 60%; /* Takes 65% of the container width */
+  width: 60%; 
   background-color: #ffffff;
   padding: 20px;
   border-radius: 8px;
@@ -632,9 +632,9 @@ table a {
 }
 
 .right-section {
-  width: 40%; /* Takes 35% of the container width */
+  width: 40%; 
   display: grid;
-  grid-template-rows: repeat(3, 1fr); /* Ensures three rows of equal height */
+  grid-template-rows: repeat(3, 1fr); 
   gap: 20px;
 }
 
@@ -725,20 +725,20 @@ li {
 
 .employee-detail {
   display: flex;
-  flex-direction: column; /* Arrange the items in a column */
+  flex-direction: column; 
 }
 
 .employee-detail li {
-  display: flex; /* Use flexbox for each list item */
-  justify-content: space-between; /* Space between label and value */
-  margin-bottom: 10px; /* Add space between each list item */
+  display: flex; 
+  justify-content: space-between; 
+  margin-bottom: 10px; 
 }
 
 
 
 .employee-detail li span {
   color: #555;
-  width: 60%; /* Adjust the width of the value */
+  width: 60%; 
 }
 
 
@@ -747,7 +747,7 @@ li {
   background-color: #ffffff;
   padding: 20px;
   border-radius: 8px;
-  text-align: left; /* Aligns content to the left for readability */
+  text-align: left; 
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
@@ -766,24 +766,24 @@ li {
 }
 
 .box li {
-  display: flex; /* Flexbox for alignment */
-  justify-content: space-between; /* Space between label and value */
-  align-items: center; /* Vertical alignment */
-  margin-bottom: 10px; /* Space between rows */
+  display: flex; 
+  justify-content: space-between; 
+  align-items: center; 
+  margin-bottom: 10px; 
 }
 
 .box .label {
   font-weight: bold;
   color: #555;
-  width: 50%; /* Fixed width for consistent alignment */
-  text-align: left; /* Align labels to the left */
+  width: 50%; 
+  text-align: left; 
 }
 
 .box .value {
   font-weight: bold;
   color: #007bff;
-  width: 50%; /* Fixed width for values */
-  text-align: right; /* Align values to the right */
+  width: 50%; 
+  text-align: right; 
 }
 
 .box .total-salary {
@@ -793,8 +793,8 @@ li {
   margin-top: 20px;
   font-size: 18px;
   font-weight: bold;
-  border-top: 1px solid #e0e0e0; /* Subtle top border for separation */
-  padding-top: 15px; /* Padding to create spacing from the list */
+  border-top: 1px solid #e0e0e0; 
+  padding-top: 15px; 
 }
 
 .box .total-salary .label {
@@ -812,8 +812,8 @@ li {
 
 .inner-box {
   display: grid;
-  grid-template-columns: repeat(2, 1fr); /* Creates two columns for the rectangles */
-  gap: 20px; /* Space between the rectangles */
+  grid-template-columns: repeat(2, 1fr); 
+  gap: 20px; 
 }
 
 .rectangle {
@@ -825,12 +825,12 @@ li {
   align-items: center;
   justify-content: center;
   border: 1px solid #DFDFDF;
-  /* box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); */
-  text-align: center; /* Centers text and content */
+  
+  text-align: center; 
 }
 
 .rectangle i.icon {
-  font-size: 30px; /* Icon size */
+  font-size: 30px; 
   margin-bottom: 10px;
   color: #007bff;
 }
